@@ -17,6 +17,10 @@
 # print(read_name.read())
 # read_name.close()
 
-password = open('passwords.txt', 'a+')
-password.write('2021itrun\n')
-password.close()
+# password = open('passwords.txt', 'a+')
+# password.write('2021itrun\n')
+# password.close()
+
+py = open('hello.py', 'w')
+py.write('print("Hello world")')
+py.close()
