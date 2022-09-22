@@ -1,3 +1,4 @@
+#Урок №10
 # f = open("text.txt", "w")
 # f.write("dwadwad\n")
 # f.write("kdjfsldkf")
@@ -21,6 +22,12 @@
 # password.write('2021itrun\n')
 # password.close()
 
-py = open('hello.py', 'w')
-py.write('print("Hello world")')
-py.close()
+# py = open('hello.py', 'w')
+# py.write('print("Hello world")')
+# py.close()
+
+with open('kyrgyzstan.txt', 'w') as f:
+    f.write("Kyrgyzstan OSH")
+    
+with open('kyrgyzstan.txt', 'r') as r:
+    print(r.read())
